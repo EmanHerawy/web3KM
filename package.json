@@ -1,0 +1,48 @@
+{
+  "name": "web3km",
+  "version": "1.0.0",
+  "description": "blockchain key management based on threadDB and IPFS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanHerawy/web3KM.git"
+  },
+  "keywords": [
+    "web3",
+    "blockchain",
+    "ipfs",
+    "threaddb",
+    "wallet",
+    "key-management",
+    "javascript",
+    "filecoin",
+    "hackfs"
+  ],
+  "author": "Eman Herawy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmanHerawy/web3KM/issues"
+  },
+  "homepage": "https://github.com/EmanHerawy/web3KM#readme",
+  "scripts": {
+    "tsc": "tsc",
+    "tscw": "tsc --watch",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack-dev-server --mode development",
+    "wp": "webpack",
+    "wpw": "webpack --watch",
+    "serve": "http-server build"
+  },
+  "dependencies": {
+    "@textile/threads-database": "^0.6.4",
+    "@types/lodash": "^4.14.150",
+    "copy-webpack-plugin": "^5.1.1",
+    "http-server": "^0.12.1",
+    "lodash": "^4.17.15",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
